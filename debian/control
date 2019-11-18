@@ -1,0 +1,12 @@
+Source: ros-kinetic-event-aggregator
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-smacc
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-event-aggregator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The event_aggregator package
