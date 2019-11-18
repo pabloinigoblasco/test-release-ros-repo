@@ -1,0 +1,13 @@
+Source: ros-kinetic-sm-radial-motion
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pibgeus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-msgs, ros-kinetic-smacc-navigation-plugin, ros-kinetic-smacc-odom-tracker, ros-kinetic-smacc-planner-switcher, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sm-radial-motion
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-ridgeback-navigation, ros-kinetic-roscpp, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-msgs, ros-kinetic-smacc-navigation-plugin, ros-kinetic-smacc-odom-tracker, ros-kinetic-smacc-planner-switcher, ros-kinetic-tf
+Description: The radial_motion_example package shows an example of using SMACC on a Mobile Robot with an onboard tool.
+ Developed by Reel Robotics.
