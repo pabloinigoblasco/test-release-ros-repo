@@ -1,0 +1,12 @@
+Source: ros-kinetic-forward-local-planner
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pibgeus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-costmap-2d, ros-kinetic-forward-global-planner, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-core, ros-kinetic-nav-msgs, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-forward-local-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-costmap-2d, ros-kinetic-forward-global-planner, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-core, ros-kinetic-nav-msgs, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: forward_local_planner package.
