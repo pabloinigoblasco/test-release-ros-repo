@@ -1,0 +1,13 @@
+Source: ros-kinetic-smacc-navigation-plugin
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pibgeus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-pluginlib, ros-kinetic-smacc, ros-kinetic-smacc-planner-switcher
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-smacc-navigation-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-pluginlib, ros-kinetic-smacc, ros-kinetic-smacc-planner-switcher
+Description: The smacc_navigation_plugin package implements SMACC Action Client Plugin for the ROS Navigation State - move_baes node.
+ Developed by Reel Robotics.
