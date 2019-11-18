@@ -1,0 +1,12 @@
+Source: ros-kinetic-sm-dance-bot
+Section: misc
+Priority: optional
+Maintainer: geus <geus@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-event-aggregator, ros-kinetic-roscpp, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-navigation-plugin, ros-kinetic-smacc-odom-tracker, ros-kinetic-smacc-planner-switcher, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sm-dance-bot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-event-aggregator, ros-kinetic-roscpp, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-navigation-plugin, ros-kinetic-smacc-odom-tracker, ros-kinetic-smacc-planner-switcher, ros-kinetic-tf
+Description: The dance_bot package
