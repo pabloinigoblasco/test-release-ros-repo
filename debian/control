@@ -1,0 +1,12 @@
+Source: ros-kinetic-sm-hello-world-example
+Section: misc
+Priority: optional
+Maintainer: Pablo Iñigo Blasco <pablo@ibrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-event-aggregator, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-planner-switcher, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sm-hello-world-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-event-aggregator, ros-kinetic-smacc, ros-kinetic-smacc-action-client-generic, ros-kinetic-smacc-interface-components, ros-kinetic-smacc-planner-switcher, ros-kinetic-std-msgs
+Description: The sm_hello_world_example package
