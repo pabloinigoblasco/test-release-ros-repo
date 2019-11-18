@@ -1,0 +1,13 @@
+Source: ros-kinetic-smacc
+Section: misc
+Priority: optional
+Maintainer: Pablo Inigo Blasco <pibgeus@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), liblog4cxx10-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-move-base-msgs, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-smacc-msgs, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-smacc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-message-runtime, ros-kinetic-move-base-msgs, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-smacc-msgs, ros-kinetic-std-msgs
+Description: SMACC is a ROS/C++ library to implement in easy and systematic way UML StateCharts (AKA state machines).
+ SMACC is inspired by the SMACH ROS package and it is built on top of Boost StateChart library. Developed by Reel Robotics.
